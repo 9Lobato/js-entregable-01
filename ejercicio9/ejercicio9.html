@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>JS entrega ejercicio9</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 0;
+    }
+    h1 {
+      color: #333;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 6px 0;
+    }
+    #index {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      font-size: 16px;
+      text-decoration: none;
+      color: #888;
+    }
+    #index:hover {
+      color:black;
+    }
+  </style>
+</head>
+<body>
+  <h1>Lista de tareas con LocalStorage</h1>
+  <form action="">
+    <input id="text" type="text">
+    <button id="addButton" type="button">Agregar</button>
+  </form>
+  <ul id="list"></ul>
+  <button id="limpiar" type="button">Limpiar lista</button>
+  <a id="index" href="../index.html">⬅ Index</a>
+<!--   <script src="ejercicio9 sin persistencia.js"></script> -->
+  <script src="ejercicio9.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>JS entrega ejercicio6</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 0;
+    }
+    h1 {
+      color: #333;
+    }
+    div {
+      display: flex;
+      justify-content: left;
+      gap: 2px;
+    }
+    button, span {
+      font-size: 16px;
+      width: 80px;
+      align-content: center;
+    }
+    #index {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      font-size: 16px;
+      text-decoration: none;
+      color: #888;
+    }
+    #index:hover {
+      color:black;
+    }
+  </style>
+</head>
+<body>
+  <h1>Temporizador con inicio, pausa y reinicio</h1>
+  <div>
+    <span id="tiempo">00:00:00</span>
+    <button id="Iniciar" type="button">Iniciar</button>
+    <button id="Pausar" type="button">Pausar</button>
+    <button id="Reiniciar" type="button">Reiniciar</button>
+  </div>
+  <ul id="list"></ul>
+  <a id="index" href="../index.html">⬅ Index</a>
+  <script type="module" src="ejercicio6.js"></script>
+</body>
+</html>
