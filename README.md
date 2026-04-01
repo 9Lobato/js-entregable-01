@@ -30,9 +30,8 @@ El objetivo es aplicar los conceptos aprendidos de manera práctica mediante eje
 
 🛠 Tecnologías utilizadas
 
-// actualizar
 - HTML5
-- CSS3 básico (estilos mínimos)
+- CSS3
 - JavaScript (ES6+)
 - LocalStorage para persistencia de datos
 - GitHub Pages
